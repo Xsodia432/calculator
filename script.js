@@ -45,14 +45,20 @@ const calculate = () => {
       firstNum = parseFloat(firstNum) - parseFloat(secondNum);
       break;
   }
+
   displayContainer.textContent = firstNum;
   globalOperator = "";
   secondNum = "";
   globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)";
+  filterSecondNum = [];
 };
 
 const clearAll = () => {
-  globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)";
+  globalOperator !== ""
+    ? (globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)")
+    : "";
+  filterFirstNum = [];
+  filterSecondNum = [];
   document.querySelector("p").textContent = "0";
   globalOperator = "";
   secondNum = "";
