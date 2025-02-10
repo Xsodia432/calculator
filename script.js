@@ -56,7 +56,7 @@ const clearAll = () => {
   globalOperator = "";
   secondNum = "";
   firstNum = "";
-  globalOperator.style.backgroundColor = "rgb(52, 56, 65)";
+  globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)";
 };
 
 buttons.forEach((val) => {
