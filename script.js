@@ -52,11 +52,11 @@ const calculate = () => {
 };
 
 const clearAll = () => {
+  globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)";
   document.querySelector("p").textContent = "0";
   globalOperator = "";
   secondNum = "";
   firstNum = "";
-  globalOperatorRef.style.backgroundColor = "rgb(52, 56, 65)";
 };
 
 buttons.forEach((val) => {
