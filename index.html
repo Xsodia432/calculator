@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="display-container"><p>0</p></div>
+      <div class="left-input-container">
+        <!-- Upper Part of Calculator -->
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="c" style="background-color: rgb(192, 34, 34)">
+          C
+        </button>
+        <!-- Middle Part -->
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="/" style="background-color: rgb(52, 56, 65)">
+          ÷
+        </button>
+
+        <!-- Middle Part 2 -->
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="*" style="background-color: rgb(52, 56, 65)">
+          x
+        </button>
+
+        <!-- Bottom Part -->
+        <button data-value="0">0</button>
+        <button data-value=".">.</button>
+        <button data-value="-" style="background-color: rgb(52, 56, 65)">
+          -
+        </button>
+        <button data-value="+" style="background-color: rgb(52, 56, 65)">
+          +
+        </button>
+        <button style="background-color: rgb(70, 111, 224)" data-value="=">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
